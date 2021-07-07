@@ -10,7 +10,7 @@
         android:layout_marginTop="500dp"
         android:background="@drawable/ellipse_6" />
 
-        <View
+<View
             android:id="@+id/ellipse_9"
             android:layout_width="300dp"
             android:layout_height="271dp"
