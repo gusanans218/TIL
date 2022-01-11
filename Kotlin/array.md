@@ -15,7 +15,13 @@ list는 API값 뺴고는 변경이 불가능하다.
  list는 컬랙션이라서 객체를 못만들어요
  그니까List<obj>() 이런식으로 객체를 만들어야 하는데
  이게 안돼요
- listOf는 listOf<obj>() 에서() 안에 값을 미리넣어두면
- 사용은 가능하고요 미리 넣어둔 값들만arrayListOf나
+
+  listOf는 listOf<obj>() 에서() 안에 값을 미리넣어두면
+ 사용은 가능하고요
+ 
+  미리 넣어둔 값들만arrayListOf나
  ArrayList<>()로 객체 만든건 클래스라서 그냥 둘은 똑같다고 보시면 돼요
+ 
  대신 arrayListOf는 listOf 처럼 미리 값을 넣을수가 있어요
+
+https://youjourney.github.io/archivers/ARRAYLIST
