@@ -6,7 +6,7 @@
 
 ```kotlin
 val personName = "홍길동"
-val PersonAge = 36
+val personAge = 36
 ```
 => 이렇게 하면 코드 중복의 문제 발생
 
