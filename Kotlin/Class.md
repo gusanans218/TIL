@@ -78,7 +78,7 @@ Person person = new Person();
 ```
 
 ```kotlin
-val preson = Person()
+val person = Person()
 ```
 
 
