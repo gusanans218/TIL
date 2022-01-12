@@ -46,7 +46,7 @@ fun main(args:Array<String>)
 }
 ```
 
-### 클래스 선언하는 범
+### 클래스 선언하는 법
 ```kotlin
 class 클래스 이름
 {
