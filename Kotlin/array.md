@@ -1,27 +1,32 @@
- list 랑
- arraylist만
- mutableList는
- 우리도 잘 안써요...
-list는 API값 뺴고는 변경이 불가능하다.
+ # Array (배열)
 
- arrayList가
- 바뀌는거
- list는
- list는 안바뀌는거
+ ###  list (Type)
 
- 그래서 list가 api 응답에 쓰이는 경우가 많아요
-근데 list랑 listof의 차이가 먼가여
- 
- list는 컬랙션이라서 객체를 못만들어요
- 그니까List<obj>() 이런식으로 객체를 만들어야 하는데
- 이게 안돼요
+- API값 빼고는 값 변경이 불가능하다.
+- 그래서 list가 api 응답에 쓰이는 경우가 많다
+- 컬렉션이라서 객체를 못 만든다.
+  - List<obj>() 이렇게 객체를 만들어야하는데 불가하다
 
-  listOf는 listOf<obj>() 에서() 안에 값을 미리넣어두면
- 사용은 가능하고요
+### arraylist (Type)
+
+- 값 변경 가능
+-
+- arrayListOf는 listOf 처럼 미리 값을 넣을수가 있어요
+  
+### mutablelist (잘 안 쓴다)
  
-  미리 넣어둔 값들만arrayListOf나
- ArrayList<>()로 객체 만든건 클래스라서 그냥 둘은 똑같다고 보시면 돼요
- 
- 대신 arrayListOf는 listOf 처럼 미리 값을 넣을수가 있어요
+
+ ### listOf (함수)
+
+- listOf는 listOf<obj>() 에서() 안에 값을 미리 넣어두면 사용은 가능하다.
+
+
+#### list랑 listOf의 차이는?
+- list는 타입이고 listOf는 함수이다
+  -  타입과 함수의 차이는?
+     - 타입 = 클래스
+     - 타입은 동작을 가지고 있는거고 함수는 동작을 실행하는 것이다
+
+
 
 https://youjourney.github.io/archivers/ARRAYLIST
