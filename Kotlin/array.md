@@ -1,4 +1,5 @@
  # Array (배열)
+-  같은 타입의 변수를 묶음으로 나타내는 것이다
 
  ###  list (Type)
 
@@ -28,5 +29,17 @@
      - 타입은 동작을 가지고 있는거고 함수는 동작을 실행하는 것이다
 
 
+
+```kt
+val arrayList = ArrayList<String>()
+arrayList.add("one")
+arrayList.add("two")
+
+
+val arrayList = arrayListOf<String>("one", "two")
+
+
+//두 코드는 같다
+```
 
 https://youjourney.github.io/archivers/ARRAYLIST
