@@ -8,11 +8,10 @@ fun main(args:Array<String>):Unit
 
     if(a>b)
     {
-
+        println("if안으로 들어옴")
+        a-=b
     }
+    println(a)
 }
 
 
-fun main(){
-  println(if(Scanner(System.`in`).nextInt() == 0) 0 else 1) 
-}
