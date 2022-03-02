@@ -46,7 +46,9 @@ https://youjourney.github.io/archivers/ARRAYLIST
 
 
 
-# list
+# sort(정렬)
+ 정렬은 배열이나 리스트를 특정한 기준으로 순서대로 나열하는것이다.
+
 
 1. Immutable 리스트 정렬
 - 데이터 변경이 안되는 리스트를 정렬할 때 사용 = sorted()
