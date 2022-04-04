@@ -15,7 +15,8 @@ live의 value 또한 0이 된다
 값이 바뀌었다는 사실을 알고 UI를 업데이트 한다
 
 live를 관찰하고 있는 액티비티에서는 옵저빙을 한다
-viewModel.live.observe(액티비티면 this 프래그먼트면 viewLifeCycleOwner를 사용해주면 된다.  ,{
+viewModel.live.observe(액티비티면 this 프래그먼트면 viewLifeCycleOwner를 사용해주면 된다. 
+ ,{
       live의 값으로 뭔가 일을 수행
 }
 
