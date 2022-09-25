@@ -19,3 +19,16 @@ class Student : Person(){
 
     fun study(){}
 }
+```
+
+```kt
+abstract class AbstractClass(val t : Int){      //불완전한 클래스
+    abstract val a : Int
+    abstract fun onClick()
+    fun function(a : Int){
+        print(a)
+    }
+
+    val b = 1
+}
+```

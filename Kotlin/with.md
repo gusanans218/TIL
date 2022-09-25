@@ -10,7 +10,6 @@ fun main(){
    println(a/b)
 }
 ```
- 확실하게 잘 안다고는 못하겠다 근데 이 with가 viewmodel.event를 안 해도 되니까 편하긴 함 ㅋㅋ 
 
  this = sc인데 this는 생략 가능   
  그래서 val c = nextInt()
