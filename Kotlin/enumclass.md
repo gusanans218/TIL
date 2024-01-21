@@ -9,7 +9,7 @@ class EnumClassExample{
     var t : Type = Type.FRIEND 
 
     fun checkType(t : Type) : Boolean{
-        return t == Type.FRIEND
+        return t == Type.FRIEND //true가 나온다.
     }
 }
 ```
